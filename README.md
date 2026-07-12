@@ -1,56 +1,54 @@
-# 🚀 Klyro – Resume Intelligence
-
 <div align="center">
 
-<img src="public/logo.png" width="120" alt="Klyro Logo"/>
+# 🚀 Klyro
 
-# AI-Powered Resume Intelligence Platform
+### AI-Powered Resume Intelligence Platform
 
-### Analyze • Optimize • Score • Improve • Get Hired
+Analyze • Optimize • Score • Improve • Get Hired
 
-Klyro helps job seekers build ATS-friendly resumes with AI-powered resume analysis, skill gap detection, resume scoring, and personalized career insights.
+<p>
+  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" />
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-06B6D4?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/OpenRouter-AI-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
+</p>
 
-![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?style=for-the-badge&logo=tailwind-css)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+**Empowering job seekers with AI-driven resume analysis and career insights.**
 
-**Empowering Job Seekers with AI-Driven Resume Intelligence**
+[🌐 Live Demo](https://klyro-resume-intelligence.vercel.app/) •
+[🐞 Report Bug](https://github.com/karthikeyana-tech/Klyro/issues) •
+[✨ Request Feature](https://github.com/karthikeyana-tech/Klyro/issues)
 
 </div>
 
 ---
 
-## 📖 Overview
+# 📖 About
 
-**Klyro** is an AI-powered Resume Intelligence platform that helps job seekers create stronger, ATS-friendly resumes through intelligent analysis and actionable recommendations.
+**Klyro** is an AI-powered Resume Intelligence platform that helps job seekers improve their resumes using AI.
 
-Instead of simply checking formatting, Klyro evaluates resumes for ATS compatibility, identifies missing skills, highlights weaknesses, and provides personalized suggestions to maximize interview opportunities.
+Instead of simply checking formatting, Klyro analyzes resumes for ATS compatibility, evaluates resume quality, identifies missing skills, and provides personalized recommendations to improve interview success.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
 - 🤖 AI Resume Analysis
-- 📊 Resume Score
+- 📊 Resume Scoring
 - 🎯 ATS Compatibility Check
-- 💡 Smart Resume Suggestions
-- 🛠 Skill Gap Detection
-- 📈 Resume Improvement Insights
+- 🧠 Intelligent Resume Suggestions
+- 📈 Skill Gap Analysis
 - 📄 PDF Resume Upload
-- 📋 Resume Parsing
 - 🔍 Keyword Analysis
-- 📱 Responsive Design
-- 🌙 Dark Mode
-- ⚡ Lightning Fast Performance
+- ⚡ Fast AI Processing
+- 🌙 Modern Responsive UI
+- 🔒 Secure API Integration
 
 ---
 
-# 📸 Preview
-
-> Add your screenshots inside the **public** folder.
+# 📸 Screenshots
 
 | Dashboard | Resume Analysis |
 |-----------|-----------------|
@@ -58,58 +56,45 @@ Instead of simply checking formatting, Klyro evaluates resumes for ATS compatibi
 
 ---
 
-# 🏗️ System Architecture
+# 🏗️ Architecture
 
 ```text
                 User
                   │
                   ▼
-        Resume Upload (PDF)
+          Upload Resume (PDF)
                   │
                   ▼
           Resume Parsing Engine
                   │
                   ▼
-         AI Intelligence Layer
+          AI Intelligence Layer
                   │
-      ┌───────────┼───────────┐
-      ▼           ▼           ▼
- ATS Analysis  Resume Score  Skill Gap Detection
-      │           │           │
-      └───────────┼───────────┘
+     ┌────────────┼────────────┐
+     ▼            ▼            ▼
+ ATS Check   Resume Score   Skill Analysis
+     │            │            │
+     └────────────┼────────────┘
                   ▼
-      Personalized Recommendations
+     Personalized Recommendations
                   │
                   ▼
-            User Dashboard
+            Interactive Dashboard
 ```
 
 ---
 
-# 🚀 Core Modules
-
-| Module | Description |
-|---------|-------------|
-| Resume Upload | Upload PDF Resume |
-| Resume Parsing | Extract Resume Content |
-| ATS Checker | ATS Compatibility Analysis |
-| Resume Score | AI Resume Rating |
-| Skill Analysis | Identify Missing Skills |
-| AI Suggestions | Personalized Improvements |
-| Dashboard | Resume Analytics |
-
----
-
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
 | Category | Technology |
 |-----------|------------|
-| Framework | Next.js 15 |
-| Frontend | React 19 |
+| Framework | Next.js 14 |
+| Frontend | React |
 | Language | TypeScript |
 | Styling | Tailwind CSS |
-| Icons | Lucide React |
-| AI | Gemini/OpenAI *(Optional)* |
+| Charts | Recharts |
+| AI | OpenRouter API |
+| PDF Parsing | pdf-parse |
 | Deployment | Vercel |
 | Version Control | Git & GitHub |
 
@@ -118,16 +103,17 @@ Instead of simply checking formatting, Klyro evaluates resumes for ATS compatibi
 # 📂 Project Structure
 
 ```text
-Klyro
-│
-├── app/
-├── components/
-├── hooks/
-├── lib/
-├── services/
+Klyro/
 ├── public/
-├── types/
-├── utils/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── services/
+│   ├── types/
+│   └── utils/
+├── .env.example
 ├── package.json
 └── README.md
 ```
@@ -136,31 +122,39 @@ Klyro
 
 # ⚙️ Getting Started
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/karthikeyana-tech/Klyro.git
 ```
 
-Move into the project
+### Navigate to the project
 
 ```bash
 cd Klyro
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Start development
+### Configure environment variables
+
+Create a `.env.local` file:
+
+```env
+OPENROUTER_API_KEY=your_api_key_here
+```
+
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-Visit
+Visit:
 
 ```
 http://localhost:3000
@@ -168,101 +162,88 @@ http://localhost:3000
 
 ---
 
-# ☁️ Deployment
+# 🚀 Deployment
 
-Klyro is deployed using **Vercel**.
+Klyro is deployed on **Vercel**.
+
+Deployment Flow:
 
 ```text
-Developer
-      │
-      ▼
-GitHub Repository
-      │
-      ▼
+GitHub
+   │
+   ▼
+Vercel
+   │
+   ▼
 Automatic Build
-      │
-      ▼
-Vercel Deployment
-      │
-      ▼
+   │
+   ▼
 Production
 ```
 
 ---
 
-# 📈 Roadmap
+# 🔒 Privacy
+
+Klyro prioritizes user privacy.
+
+- Secure API communication
+- No resume storage
+- No unnecessary tracking
+- Environment variable protection
+
+---
+
+# 📌 Roadmap
 
 - [x] Resume Upload
-- [x] Resume Analysis
-- [x] ATS Score
-- [x] Resume Insights
-- [ ] AI Resume Builder
+- [x] Resume Parsing
+- [x] AI Resume Analysis
+- [x] ATS Compatibility Check
+- [x] Resume Score
 - [ ] Cover Letter Generator
 - [ ] Interview Preparation
 - [ ] Job Matching
-- [ ] Resume Templates
+- [ ] Resume Builder
 - [ ] Career Dashboard
-- [ ] Recruiter Portal
 
 ---
 
-# 🔒 Privacy
+# 🤝 Contributors
 
-- No Resume Sharing
-- Secure Processing
-- Privacy Focused
-- User Controlled Data
-- Secure File Upload
-- GDPR Friendly Design
-
----
-
-# 🎯 Use Cases
-
-- Students
-- Fresh Graduates
-- Experienced Professionals
-- Career Switchers
-- Recruiters
-- Universities
-
----
-
-# 👥 Contributors
-
-## 🥇 Lead Developer
+## 👨‍💻 Lead Developer
 
 ### KARTHIKEYAN A
 
 **Cloud & DevOps Engineer**
 
-- 🌐 GitHub: https://github.com/karthikeyana-tech
-- 💼 LinkedIn: https://www.linkedin.com/in/karthikeyana-tech-innovator/
-- 📧 Email: karthikeyana.tech@gmail.com
+- GitHub: https://github.com/karthikeyana-tech
+- LinkedIn: https://www.linkedin.com/in/karthikeyana-tech-innovator/
+- Email: karthikeyana.tech@gmail.com
 
 ---
 
-## 🤝 Co-Developer
+## 👨‍💻 Co-Developer
 
 ### SABARI KARTHIKEYAN R
 
 **Backend Developer**
 
-- 🌐 GitHub: https://github.com/sabari-sk
-- 💼 LinkedIn: https://www.linkedin.com/in/sabari-it
-- 📧 Email: sabarikarthikeyan2006@gmail.com
+- GitHub: https://github.com/sabari-sk
+- LinkedIn: https://www.linkedin.com/in/sabari-it
+- Email: sabarikarthikeyan2006@gmail.com
 
 ---
 
-# 🌟 Vision
+# 💡 Vision
 
-Our mission is to empower every job seeker with intelligent resume analysis and career guidance, making professional opportunities more accessible through AI-driven insights.
+Klyro aims to help students and professionals create stronger resumes through AI-powered analysis, making career opportunities more accessible and data-driven.
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
 
 ---
 
@@ -274,8 +255,8 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-## Built with ❤️ by KARTHIKEYAN A & SABARI KARTHIKEYAN R
+### Built with ❤️ by KARTHIKEYAN A & SABARI KARTHIKEYAN R
 
-### **AI • Resume Intelligence • Career Technology**
+**AI • Resume Intelligence • Career Technology**
 
 </div>
