@@ -223,7 +223,7 @@ Klyro prioritizes user privacy.
 
 ### SABARI KARTHIKEYAN R
 
-**Full stack Developer**
+**Full Stack Developer**
 
 - GitHub: https://github.com/sabari-sk
 - LinkedIn: https://www.linkedin.com/in/sabari-it
