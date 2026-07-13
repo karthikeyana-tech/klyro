@@ -211,8 +211,6 @@ Klyro prioritizes user privacy.
 
 # 🤝 Contributors
 
-## 👨‍💻 Lead Developer
-
 ### KARTHIKEYAN A
 
 **Cloud & DevOps Engineer**
@@ -223,15 +221,13 @@ Klyro prioritizes user privacy.
 
 ---
 
-## 👨‍💻 Co-Developer
-
 ### SABARI KARTHIKEYAN R
 
-**Backend Developer**
+**Full stack Developer**
 
 - GitHub: https://github.com/sabari-sk
 - LinkedIn: https://www.linkedin.com/in/sabari-it
-- Email: sabarikarthikeyan2006@gmail.com
+- Email: sabari227040@gmail.com
 
 ---
 
